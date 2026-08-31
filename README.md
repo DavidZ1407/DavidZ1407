@@ -40,6 +40,10 @@ Currently open to roles in **gameplay programming**, **gameplay / systems design
 
 ![FMOD](https://img.shields.io/badge/FMOD-14211F?style=flat-square&logo=fmod&logoColor=E9EDF2) ![Ableton Live](https://img.shields.io/badge/Ableton%20Live-14211F?style=flat-square)
 
+<div align="center">
+  <img src="assets/ornament.svg" width="200" alt="" />
+</div>
+
 ## Let's Connect
 
 <div align="center">
@@ -47,4 +51,8 @@ Currently open to roles in **gameplay programming**, **gameplay / systems design
   <a href="https://www.linkedin.com/in/david-zahn-3829a1364/"><img src="assets/btn-linkedin.svg" width="190" alt="LinkedIn"></a>
   <a href="https://github.com/DavidZ1407"><img src="assets/btn-github.svg" width="190" alt="GitHub"></a>
   <a href="mailto:David-zahn@hotmail.com"><img src="assets/btn-email.svg" width="190" alt="Email"></a>
+</div>
+
+<div align="center">
+  <img src="assets/ornament.svg" width="200" alt="" />
 </div>
