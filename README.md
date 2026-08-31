@@ -1,9 +1,5 @@
 <div align="center">
-  <img src="assets/banner.svg" width="100%" alt="Deep underwater scene with drifting light rays, rising bubbles and sunken gothic silhouettes" />
-
-  # David Zahn
-
-  ### Games & Immersive Media Student · Gameplay Programming · Systems Design · 3D
+  <img src="assets/banner.svg" width="100%" alt="David Zahn — Games & Immersive Media · Gameplay Programming · Systems Design · 3D Art" />
 
   *A developer portfolio, discovered beneath the surface.*
 
@@ -78,19 +74,19 @@ My **[portfolio website](https://davidz1407.github.io/Portfolio/index.html)** an
 
 **Game Development**
 
-![Godot](https://img.shields.io/badge/Godot-1B2B44?style=flat-square&logo=godotengine&logoColor=478CBF) ![C#](https://img.shields.io/badge/C%23-1B2B44?style=flat-square) ![Unreal Engine 5](https://img.shields.io/badge/Unreal%20Engine%205-1B2B44?style=flat-square&logo=unrealengine&logoColor=E9EDF2)
+![Godot](https://img.shields.io/badge/Godot-14211F?style=flat-square&logo=godotengine&logoColor=478CBF) ![C#](https://img.shields.io/badge/C%23-14211F?style=flat-square) ![Unreal Engine 5](https://img.shields.io/badge/Unreal%20Engine%205-14211F?style=flat-square&logo=unrealengine&logoColor=E9EDF2)
 
 **3D & Art**
 
-![Blender](https://img.shields.io/badge/Blender-1B2B44?style=flat-square&logo=blender&logoColor=E87D0D) ![Krita](https://img.shields.io/badge/Krita-1B2B44?style=flat-square&logo=krita&logoColor=56B4FF) ![Material Maker](https://img.shields.io/badge/Material%20Maker-1B2B44?style=flat-square)
+![Blender](https://img.shields.io/badge/Blender-14211F?style=flat-square&logo=blender&logoColor=E87D0D) ![Krita](https://img.shields.io/badge/Krita-14211F?style=flat-square&logo=krita&logoColor=56B4FF) ![Material Maker](https://img.shields.io/badge/Material%20Maker-14211F?style=flat-square)
 
 **Web & Graphics**
 
-![HTML](https://img.shields.io/badge/HTML-1B2B44?style=flat-square&logo=html5&logoColor=E44D26) ![CSS](https://img.shields.io/badge/CSS-1B2B44?style=flat-square&logo=css&logoColor=4FA3E0) ![JavaScript](https://img.shields.io/badge/JavaScript-1B2B44?style=flat-square&logo=javascript&logoColor=F7DF1E) ![TypeScript](https://img.shields.io/badge/TypeScript-1B2B44?style=flat-square&logo=typescript&logoColor=3178C6) ![WebGL](https://img.shields.io/badge/WebGL-1B2B44?style=flat-square&logo=webgl&logoColor=E2574C) ![GLSL / OpenGL](https://img.shields.io/badge/GLSL%20%2F%20OpenGL-1B2B44?style=flat-square&logo=opengl&logoColor=7FB0D8)
+![HTML](https://img.shields.io/badge/HTML-14211F?style=flat-square&logo=html5&logoColor=E44D26) ![CSS](https://img.shields.io/badge/CSS-14211F?style=flat-square&logo=css&logoColor=4FA3E0) ![JavaScript](https://img.shields.io/badge/JavaScript-14211F?style=flat-square&logo=javascript&logoColor=F7DF1E) ![TypeScript](https://img.shields.io/badge/TypeScript-14211F?style=flat-square&logo=typescript&logoColor=3178C6) ![WebGL](https://img.shields.io/badge/WebGL-14211F?style=flat-square&logo=webgl&logoColor=E2574C) ![GLSL / OpenGL](https://img.shields.io/badge/GLSL%20%2F%20OpenGL-14211F?style=flat-square&logo=opengl&logoColor=7FB0D8)
 
 **Audio**
 
-![FMOD](https://img.shields.io/badge/FMOD-1B2B44?style=flat-square&logo=fmod&logoColor=E9EDF2) ![Ableton Live](https://img.shields.io/badge/Ableton%20Live-1B2B44?style=flat-square)
+![FMOD](https://img.shields.io/badge/FMOD-14211F?style=flat-square&logo=fmod&logoColor=E9EDF2) ![Ableton Live](https://img.shields.io/badge/Ableton%20Live-14211F?style=flat-square)
 
 <div align="center">
   <img src="assets/divider.svg" width="440" alt="" />
@@ -100,9 +96,9 @@ My **[portfolio website](https://davidz1407.github.io/Portfolio/index.html)** an
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-1B2B44?style=for-the-badge)](https://davidz1407.github.io/Portfolio/index.html)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/david-zahn-3829a1364/)
-[![GitHub](https://img.shields.io/badge/GitHub-1B2B44?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DavidZ1407)
+<a href="https://davidz1407.github.io/Portfolio/index.html"><img src="assets/btn-portfolio.svg" width="190" alt="Portfolio"></a>
+<a href="https://www.linkedin.com/in/david-zahn-3829a1364/"><img src="assets/btn-linkedin.svg" width="190" alt="LinkedIn"></a>
+<a href="https://github.com/DavidZ1407"><img src="assets/btn-github.svg" width="190" alt="GitHub"></a>
 
 </div>
 

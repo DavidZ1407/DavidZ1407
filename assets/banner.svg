@@ -1,84 +1,115 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 340" width="1400" height="340" role="img" aria-label="Deep underwater scene: pale light rays, rising bubbles and sunken gothic silhouettes in dark blue water">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 360" width="1400" height="360" role="img" aria-label="David Zahn - Games and Immersive Media. Dark hall with golden light streaks, floating dust and gothic arches.">
   <defs>
-    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#123252"/>
-      <stop offset="0.45" stop-color="#0B2440"/>
-      <stop offset="1" stop-color="#050F1D"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0D1719"/>
+      <stop offset="0.55" stop-color="#0A1315"/>
+      <stop offset="1" stop-color="#060C0D"/>
     </linearGradient>
-    <radialGradient id="surface" cx="0.5" cy="0" r="1">
-      <stop offset="0" stop-color="#BFE0F5" stop-opacity="0.22"/>
-      <stop offset="0.35" stop-color="#BFE0F5" stop-opacity="0.05"/>
-      <stop offset="1" stop-color="#BFE0F5" stop-opacity="0"/>
+    <radialGradient id="haze" cx="0.5" cy="0.08" r="1">
+      <stop offset="0" stop-color="#1E3A38" stop-opacity="0.45"/>
+      <stop offset="0.5" stop-color="#14282A" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="ray" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#AFD6F0" stop-opacity="0.30"/>
-      <stop offset="1" stop-color="#AFD6F0" stop-opacity="0"/>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8FB8B2" stop-opacity="0.13"/>
+      <stop offset="0.7" stop-color="#8FB8B2" stop-opacity="0.03"/>
+      <stop offset="1" stop-color="#8FB8B2" stop-opacity="0"/>
     </linearGradient>
     <radialGradient id="vig" cx="0.5" cy="0.5" r="0.75">
-      <stop offset="0" stop-color="#020609" stop-opacity="0"/>
-      <stop offset="0.72" stop-color="#020609" stop-opacity="0"/>
-      <stop offset="1" stop-color="#020609" stop-opacity="0.55"/>
+      <stop offset="0" stop-color="#020505" stop-opacity="0"/>
+      <stop offset="0.72" stop-color="#020505" stop-opacity="0"/>
+      <stop offset="1" stop-color="#020505" stop-opacity="0.6"/>
     </radialGradient>
     <style>
-      .ray { animation: sway 10s ease-in-out infinite alternate; transform-origin: 700px -60px; }
-      .r2 { animation-duration: 14s; animation-delay: -5s; }
-      .r3 { animation-duration: 18s; animation-delay: -9s; }
-      @keyframes sway { from { transform: rotate(-2.4deg); } to { transform: rotate(2.4deg); } }
-      .bub { animation: rise 12s linear infinite; }
-      .b2 { animation-duration: 16s; animation-delay: -7s; }
-      .b3 { animation-duration: 20s; animation-delay: -13s; }
-      @keyframes rise { 0% { transform: translateY(0); opacity: 0; } 10% { opacity: 0.55; } 80% { opacity: 0.35; } 100% { transform: translateY(-330px); opacity: 0; } }
-      .drift { animation: drift 18s linear infinite; }
-      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-280px); } }
+      .streak { animation: flicker 9s ease-in-out infinite alternate; }
+      .s2 { animation-duration: 13s; animation-delay: -4s; }
+      .s3 { animation-duration: 17s; animation-delay: -8s; }
+      @keyframes flicker { from { opacity: 0.55; } to { opacity: 1; } }
+      .dust { animation: rise 15s linear infinite; }
+      .d2 { animation-duration: 20s; animation-delay: -7s; }
+      .d3 { animation-duration: 25s; animation-delay: -13s; }
+      @keyframes rise { 0% { transform: translateY(0); opacity: 0; } 12% { opacity: 0.5; } 85% { opacity: 0.3; } 100% { transform: translateY(-380px); opacity: 0; } }
+      .tw { animation: twinkle 5s ease-in-out infinite alternate; }
+      .t2 { animation-duration: 7s; animation-delay: -2.5s; }
+      .t3 { animation-duration: 9s; animation-delay: -5s; }
+      @keyframes twinkle { from { opacity: 0.1; } to { opacity: 0.55; } }
     </style>
   </defs>
 
-  <rect width="1400" height="340" fill="url(#sea)"/>
-  <rect width="1400" height="340" fill="url(#surface)"/>
+  <rect width="1400" height="360" fill="url(#bg)"/>
+  <rect width="1400" height="360" fill="url(#haze)"/>
 
-  <!-- light rays -->
-  <polygon class="ray" points="560,-60 620,-60 380,340 260,340" fill="url(#ray)"/>
-  <polygon class="ray r2" points="840,-60 880,-60 1060,340 950,340" fill="url(#ray)"/>
-  <polygon class="ray r3" points="180,-60 230,-60 40,340 -30,340" fill="url(#ray)"/>
-  <polygon class="ray r2" points="1180,-60 1240,-60 1420,340 1330,340" fill="url(#ray)"/>
-
-  <!-- mid-water wave lines (seamless 280px period) -->
-  <g class="drift" opacity="0.35" stroke="#3D6A8A" fill="none" stroke-width="2">
-    <path d="M0 150 Q 70 138 140 150 T 280 150 T 420 150 T 560 150 T 700 150 T 840 150 T 980 150 T 1120 150 T 1260 150 T 1400 150 T 1540 150 T 1680 150"/>
-    <path d="M0 210 Q 70 200 140 210 T 280 210 T 420 210 T 560 210 T 700 210 T 840 210 T 980 210 T 1120 210 T 1260 210 T 1400 210 T 1540 210 T 1680 210" stroke="#2E5068" stroke-width="1.5"/>
+  <!-- vertical light streaks -->
+  <g>
+    <rect class="streak" x="205" y="0" width="2" height="360" fill="#8FB8B2" opacity="0.13"/>
+    <rect class="streak s2" x="415" y="0" width="1.5" height="360" fill="#9CC4BE" opacity="0.09"/>
+    <rect class="streak s3" x="610" y="0" width="2.5" height="360" fill="#8FB8B2" opacity="0.11"/>
+    <rect class="streak" x="805" y="0" width="1.5" height="360" fill="#9CC4BE" opacity="0.09"/>
+    <rect class="streak s2" x="1000" y="0" width="2" height="360" fill="#8FB8B2" opacity="0.13"/>
+    <rect class="streak s3" x="1195" y="0" width="1.5" height="360" fill="#9CC4BE" opacity="0.09"/>
+    <polygon class="streak s2" points="492,0 508,0 496,360 478,360" fill="url(#beam)"/>
+    <polygon class="streak s3" points="892,0 908,0 924,360 908,360" fill="url(#beam)"/>
+    <polygon class="streak" points="268,0 282,0 264,360 248,360" fill="url(#beam)"/>
+    <polygon class="streak s2" points="1108,0 1122,0 1146,360 1130,360" fill="url(#beam)"/>
   </g>
 
-  <!-- sunken gothic silhouettes -->
-  <g fill="#030A13">
-    <path d="M60 310 L60 215 L88 155 L116 215 L116 310 Z"/>
-    <path d="M126 310 L126 240 L148 196 L170 240 L170 310 Z"/>
-    <path d="M20 310 L20 258 L40 220 L60 258 L60 310 Z"/>
-    <path d="M636 310 L636 185 L662 122 L688 185 L688 310 Z"/>
-    <path d="M782 310 L782 185 L808 122 L834 185 L834 310 Z"/>
-    <path d="M654 130 L662 104 L670 130 Z"/>
-    <path d="M800 130 L808 104 L816 130 Z"/>
-    <path d="M688 310 L688 225 Q 735 152 782 225 L782 310 Z"/>
-    <path d="M1180 310 L1180 245 Q 1215 200 1250 245 L1250 310 Z"/>
-    <path d="M1330 310 L1330 255 L1348 222 L1366 255 L1366 310 Z"/>
-  </g>
-  <circle cx="735" cy="248" r="15" fill="#123252"/>
-
-  <!-- seabed -->
-  <path d="M0 302 Q 180 288 400 298 T 820 300 T 1400 294 L 1400 340 L 0 340 Z" fill="#040C17"/>
-
-  <!-- rising bubbles -->
-  <g fill="#9FC6E4">
-    <g class="bub"><circle cx="300" cy="350" r="2.5"/><circle cx="318" cy="332" r="1.5"/><circle cx="288" cy="364" r="1.2"/></g>
-    <g class="bub b2"><circle cx="760" cy="350" r="2"/><circle cx="778" cy="334" r="1.3"/></g>
-    <g class="bub b3"><circle cx="1120" cy="350" r="2.2"/><circle cx="1102" cy="366" r="1.4"/><circle cx="1136" cy="360" r="1.1"/></g>
+  <!-- gothic arches, thin gold line art -->
+  <g fill="none" stroke="#C9A45C">
+    <path d="M350 330 L350 230 Q 362 92 700 40 Q 1038 92 1050 230 L1050 330" stroke-width="1.4" opacity="0.2"/>
+    <path d="M350 170 L1050 170" stroke-width="0.8" opacity="0.13"/>
+    <path d="M700 40 L700 170" stroke-width="0.8" opacity="0.12"/>
+    <path d="M120 330 L120 240 Q 126 172 210 150 Q 294 172 300 240 L300 330" stroke-width="1" opacity="0.11"/>
+    <path d="M1100 330 L1100 240 Q 1106 172 1190 150 Q 1274 172 1280 240 L1280 330" stroke-width="1" opacity="0.11"/>
   </g>
 
-  <!-- drifting particles -->
-  <g fill="#7FA6C8" opacity="0.3">
-    <circle cx="150" cy="120" r="1.2"/><circle cx="420" cy="90" r="1"/><circle cx="620" cy="140" r="1.4"/>
-    <circle cx="980" cy="100" r="1.2"/><circle cx="1240" cy="150" r="1"/><circle cx="860" cy="70" r="1"/>
-    <circle cx="240" cy="180" r="1"/><circle cx="1340" cy="90" r="1.2"/>
+  <!-- ornamental golden frame -->
+  <rect x="14" y="14" width="1372" height="332" fill="none" stroke="#C9A45C" stroke-width="1" opacity="0.35"/>
+  <g fill="none" stroke="#C9A45C" stroke-width="2" opacity="0.8">
+    <path d="M14 36 L14 14 L36 14"/>
+    <path d="M1364 14 L1386 14 L1386 36"/>
+    <path d="M1386 324 L1386 346 L1364 346"/>
+    <path d="M36 346 L14 346 L14 324"/>
+  </g>
+  <path d="M692 14 L700 6 L708 14 L700 22 Z" fill="#C9A45C" opacity="0.75"/>
+  <path d="M692 346 L700 338 L708 346 L700 354 Z" fill="#C9A45C" opacity="0.75"/>
+
+  <!-- hero text -->
+  <text x="700" y="112" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="19" letter-spacing="9" fill="#C9A45C">GAMES &amp; IMMERSIVE MEDIA</text>
+  <g fill="#C9A45C">
+    <line x1="505" y1="146" x2="662" y2="146" stroke="#C9A45C" stroke-width="1" opacity="0.7"/>
+    <line x1="738" y1="146" x2="895" y2="146" stroke="#C9A45C" stroke-width="1" opacity="0.7"/>
+    <path d="M700 138 L707 146 L700 154 L693 146 Z" opacity="0.95"/>
+    <path d="M668 141.5 L673 146 L668 150.5 L663 146 Z" opacity="0.65"/>
+    <path d="M732 141.5 L737 146 L732 150.5 L727 146 Z" opacity="0.65"/>
+  </g>
+  <text x="700" y="258" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="86" letter-spacing="12" fill="#F0EDE6">DAVID ZAHN</text>
+  <text x="700" y="306" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" letter-spacing="4" fill="#6FB5AC">GAMEPLAY PROGRAMMING · SYSTEMS DESIGN · 3D ART</text>
+
+  <!-- rising golden dust -->
+  <g fill="#D8C9A3">
+    <g class="dust"><circle cx="250" cy="380" r="2"/><circle cx="268" cy="398" r="1.3"/></g>
+    <g class="dust d2"><circle cx="640" cy="380" r="1.6"/><circle cx="622" cy="396" r="1.1"/></g>
+    <g class="dust d3"><circle cx="1050" cy="380" r="2"/><circle cx="1068" cy="394" r="1.2"/></g>
   </g>
 
-  <rect width="1400" height="340" fill="url(#vig)"/>
+  <!-- twinkling particles -->
+  <g fill="#D8C9A3">
+    <circle class="tw" cx="180" cy="80" r="1.6"/>
+    <circle class="tw t2" cx="380" cy="150" r="1.2"/>
+    <circle class="tw t3" cx="520" cy="60" r="1.4"/>
+    <circle class="tw" cx="980" cy="120" r="1.3"/>
+    <circle class="tw t2" cx="1230" cy="70" r="1.6"/>
+    <circle class="tw t3" cx="1120" cy="200" r="1.1"/>
+  </g>
+  <g fill="#9CC4BE">
+    <circle class="tw t2" cx="300" cy="230" r="1.2"/>
+    <circle class="tw" cx="1180" cy="120" r="1.2"/>
+    <circle class="tw t3" cx="850" cy="55" r="1.3"/>
+  </g>
+  <g fill="#D8C9A3" opacity="0.25">
+    <circle cx="90" cy="250" r="1.2"/><circle cx="1310" cy="260" r="1.4"/>
+    <circle cx="450" cy="300" r="1"/><circle cx="960" cy="310" r="1.1"/>
+  </g>
+
+  <rect width="1400" height="360" fill="url(#vig)"/>
 </svg>

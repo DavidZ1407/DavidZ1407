@@ -1,12 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 36" width="900" height="36" role="img" aria-label="Subtle wave divider">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 40" width="900" height="40" role="img" aria-label="Golden ornament divider">
   <defs>
     <style>
-      .w { animation: swim 9s linear infinite; }
-      @keyframes swim { from { transform: translateX(0); } to { transform: translateX(-150px); } }
+      .glint { animation: glint 7s ease-in-out infinite; }
+      @keyframes glint { 0% { transform: translateX(-140px); opacity: 0; } 15% { opacity: 0.85; } 55% { opacity: 0.85; } 90% { opacity: 0; } 100% { transform: translateX(1040px); opacity: 0; } }
     </style>
   </defs>
-  <g class="w" fill="none" stroke-linecap="round">
-    <path d="M0 14 Q 37.5 6 75 14 T 150 14 T 225 14 T 300 14 T 375 14 T 450 14 T 525 14 T 600 14 T 675 14 T 750 14 T 825 14 T 900 14 T 975 14 T 1050 14" stroke="#3D6A8A" stroke-width="2" opacity="0.8"/>
-    <path d="M0 24 Q 37.5 17 75 24 T 150 24 T 225 24 T 300 24 T 375 24 T 450 24 T 525 24 T 600 24 T 675 24 T 750 24 T 825 24 T 900 24 T 975 24 T 1050 24" stroke="#2E5068" stroke-width="1.5" opacity="0.5"/>
+  <g stroke="#C9A45C">
+    <line x1="40" y1="20" x2="415" y2="20" stroke-width="1.2" opacity="0.55"/>
+    <line x1="485" y1="20" x2="860" y2="20" stroke-width="1.2" opacity="0.55"/>
+    <circle cx="40" cy="20" r="2" fill="#C9A45C" stroke="none" opacity="0.6"/>
+    <circle cx="860" cy="20" r="2" fill="#C9A45C" stroke="none" opacity="0.6"/>
   </g>
+  <path d="M450 11 L459 20 L450 29 L441 20 Z" fill="none" stroke="#C9A45C" stroke-width="1.4" opacity="0.9"/>
+  <path d="M450 15.5 L454.5 20 L450 24.5 L445.5 20 Z" fill="#C9A45C" opacity="0.85"/>
+  <line class="glint" x1="60" y1="20" x2="170" y2="20" stroke="#F2E3BE" stroke-width="1.8" stroke-linecap="round"/>
 </svg>
