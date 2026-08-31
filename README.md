@@ -47,7 +47,7 @@ Currently open to roles in **gameplay programming**, **gameplay / systems design
 
 **Audio**
 
-![FMOD](https://img.shields.io/badge/FMOD-14211F?style=flat-square&logo=fmod&logoColor=E9EDF2)
+![FMOD](https://img.shields.io/badge/FMOD-14211F?style=flat-square&logo=fmod&logoColor=E9EDF2) ![Ableton Live](https://img.shields.io/badge/Ableton%20Live-14211F?style=flat-square)
 
 <div align="center">
   <sub><b>David Zahn</b> · Games & Immersive Media</sub>
