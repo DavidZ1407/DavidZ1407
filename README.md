@@ -22,15 +22,6 @@ Currently open to roles in **gameplay programming**, **gameplay / systems design
   <img src="assets/ornament.svg" width="200" alt="" />
 </div>
 
-## Let's Connect
-
-<div align="center">
-  <a href="https://davidz1407.github.io/Portfolio/index.html"><img src="assets/btn-portfolio.svg" width="190" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/david-zahn-3829a1364/"><img src="assets/btn-linkedin.svg" width="190" alt="LinkedIn"></a>
-  <a href="https://github.com/DavidZ1407"><img src="assets/btn-github.svg" width="190" alt="GitHub"></a>
-  <a href="mailto:David-zahn@hotmail.com"><img src="assets/btn-email.svg" width="190" alt="Email"></a>
-</div>
-
 ## Tools & Technologies
 
 **Game Development**
@@ -49,6 +40,11 @@ Currently open to roles in **gameplay programming**, **gameplay / systems design
 
 ![FMOD](https://img.shields.io/badge/FMOD-14211F?style=flat-square&logo=fmod&logoColor=E9EDF2) ![Ableton Live](https://img.shields.io/badge/Ableton%20Live-14211F?style=flat-square)
 
+## Let's Connect
+
 <div align="center">
-  <sub><b>David Zahn</b> · Games & Immersive Media</sub>
+  <a href="https://davidz1407.github.io/Portfolio/index.html"><img src="assets/btn-portfolio.svg" width="190" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/david-zahn-3829a1364/"><img src="assets/btn-linkedin.svg" width="190" alt="LinkedIn"></a>
+  <a href="https://github.com/DavidZ1407"><img src="assets/btn-github.svg" width="190" alt="GitHub"></a>
+  <a href="mailto:David-zahn@hotmail.com"><img src="assets/btn-email.svg" width="190" alt="Email"></a>
 </div>
