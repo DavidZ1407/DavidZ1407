@@ -1,80 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 44" width="260" height="44" role="img" aria-label="Golden ornament with a softly glowing blue orb travelling along the line">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60" role="img" aria-label="Glowing blue orb">
   <defs>
-    <linearGradient id="GlowBand" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#3FC6DA" stop-opacity="0"/>
-      <stop offset="0.12" stop-color="#3FC6DA" stop-opacity="0.16"/>
-      <stop offset="0.5" stop-color="#3FC6DA" stop-opacity="0.24"/>
-      <stop offset="0.88" stop-color="#3FC6DA" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#3FC6DA" stop-opacity="0"/>
-    </linearGradient>
-    <radialGradient id="DimGlow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#3FC6DA" stop-opacity="0.28"/>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3FC6DA" stop-opacity="0.35"/>
       <stop offset="1" stop-color="#3FC6DA" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="DiamondGlow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#6FD8E8" stop-opacity="0.45"/>
-      <stop offset="1" stop-color="#3FC6DA" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="OrbGlowOuter" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#3FC6DA" stop-opacity="0.45"/>
-      <stop offset="1" stop-color="#3FC6DA" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="OrbGlowInner" cx="0.5" cy="0.5" r="0.5">
+    <radialGradient id="orbGlow" cx="0.5" cy="0.5" r="0.5">
       <stop offset="0" stop-color="#E4FBFE" stop-opacity="0.95"/>
-      <stop offset="0.45" stop-color="#5FCEE0" stop-opacity="0.75"/>
+      <stop offset="0.5" stop-color="#5FCEE0" stop-opacity="0.8"/>
       <stop offset="1" stop-color="#2BB6D8" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
-  <!-- soft blue glow band -->
-  <rect x="18" y="15" width="224" height="14" fill="url(#GlowBand)"/>
-
-  <!-- pulsing glow behind the center diamond -->
-  <circle cx="130" cy="22" r="13" fill="url(#DimGlow)">
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="130" cy="22" r="7" fill="url(#DiamondGlow)">
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- golden lines -->
-  <line x1="18" y1="22" x2="107" y2="22" stroke="#C9A45C" stroke-width="1" opacity="0.55"/>
-  <line x1="153" y1="22" x2="242" y2="22" stroke="#C9A45C" stroke-width="1" opacity="0.55"/>
-
-  <!-- end dots -->
-  <circle cx="18" cy="22" r="1.5" fill="#C9A45C" opacity="0.7"/>
-  <circle cx="242" cy="22" r="1.5" fill="#C9A45C" opacity="0.7"/>
-
-  <!-- small side diamonds -->
-  <path d="M53 22 L56 19 L59 22 L56 25 Z" fill="#C9A45C" opacity="0.5"/>
-  <path d="M201 22 L204 19 L207 22 L204 25 Z" fill="#C9A45C" opacity="0.5"/>
-  <path d="M109 22 L112 19 L115 22 L112 25 Z" fill="#C9A45C" opacity="0.65"/>
-  <path d="M145 22 L148 19 L151 22 L148 25 Z" fill="#C9A45C" opacity="0.65"/>
-
-  <!-- center diamond -->
-  <path d="M130 9 L140 22 L130 35 L120 22 Z" fill="none" stroke="#C9A45C" stroke-width="1.2" opacity="0.95"/>
-  <path d="M130 13.5 L134.5 22 L130 30.5 L125.5 22 Z" fill="#C9A45C" opacity="0.95"/>
-
-  <!-- travelling blue orb -->
   <g>
-    <circle cy="22" r="10" fill="url(#OrbGlowOuter)">
-      <animate attributeName="cx" values="18;242;18" dur="7s" repeatCount="indefinite"/>
+    <!-- intermittent glow: mostly dim, lights up every now and then -->
+    <animate attributeName="opacity" values="0.35;0.15;0.1;1;0.45;0.35;0.12;0.12;0.9;0.35" dur="10s" repeatCount="indefinite"/>
+
+    <!-- outer halo -->
+    <circle cy="30" r="18" fill="url(#halo)">
+      <animate attributeName="cx" values="22;178;22" dur="8s" repeatCount="indefinite"/>
     </circle>
-    <circle cy="22" r="6" fill="url(#OrbGlowInner)">
-      <animate attributeName="cx" values="18;242;18" dur="7s" repeatCount="indefinite"/>
+
+    <!-- glow -->
+    <circle cy="30" r="9" fill="url(#orbGlow)">
+      <animate attributeName="cx" values="22;178;22" dur="8s" repeatCount="indefinite"/>
     </circle>
-    <circle cy="22" r="4" fill="none" stroke="#9FD9E6" stroke-width="1">
-      <animate attributeName="cx" values="18;242;18" dur="7s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.35;0.7;0.35" dur="1.8s" repeatCount="indefinite"/>
+
+    <!-- soft ring -->
+    <circle cy="30" r="6" fill="none" stroke="#7FD3E0" stroke-width="0.8">
+      <animate attributeName="cx" values="22;178;22" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.7;0.4" dur="2.4s" repeatCount="indefinite"/>
     </circle>
-    <circle cy="22" r="2.2" fill="#E4FBFE">
-      <animate attributeName="cx" values="18;242;18" dur="7s" repeatCount="indefinite"/>
+
+    <!-- core -->
+    <circle cy="30" r="3" fill="#E4FBFE">
+      <animate attributeName="cx" values="22;178;22" dur="8s" repeatCount="indefinite"/>
     </circle>
   </g>
-
-  <!-- small trailing spark -->
-  <circle cy="22" r="1.1" fill="#7FD3E0">
-    <animate attributeName="cx" values="12;248;12" dur="7s" begin="-2.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.15;0.55;0.15" dur="2.4s" repeatCount="indefinite"/>
-  </circle>
 </svg>
