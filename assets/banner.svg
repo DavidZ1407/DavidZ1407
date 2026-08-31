@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 340" width="1400" height="340" role="img" aria-label="Deep underwater scene: pale light rays, rising bubbles and sunken gothic silhouettes in dark blue water">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#123252"/>
+      <stop offset="0.45" stop-color="#0B2440"/>
+      <stop offset="1" stop-color="#050F1D"/>
+    </linearGradient>
+    <radialGradient id="surface" cx="0.5" cy="0" r="1">
+      <stop offset="0" stop-color="#BFE0F5" stop-opacity="0.22"/>
+      <stop offset="0.35" stop-color="#BFE0F5" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#BFE0F5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#AFD6F0" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#AFD6F0" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0" stop-color="#020609" stop-opacity="0"/>
+      <stop offset="0.72" stop-color="#020609" stop-opacity="0"/>
+      <stop offset="1" stop-color="#020609" stop-opacity="0.55"/>
+    </radialGradient>
+    <style>
+      .ray { animation: sway 10s ease-in-out infinite alternate; transform-origin: 700px -60px; }
+      .r2 { animation-duration: 14s; animation-delay: -5s; }
+      .r3 { animation-duration: 18s; animation-delay: -9s; }
+      @keyframes sway { from { transform: rotate(-2.4deg); } to { transform: rotate(2.4deg); } }
+      .bub { animation: rise 12s linear infinite; }
+      .b2 { animation-duration: 16s; animation-delay: -7s; }
+      .b3 { animation-duration: 20s; animation-delay: -13s; }
+      @keyframes rise { 0% { transform: translateY(0); opacity: 0; } 10% { opacity: 0.55; } 80% { opacity: 0.35; } 100% { transform: translateY(-330px); opacity: 0; } }
+      .drift { animation: drift 18s linear infinite; }
+      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-280px); } }
+    </style>
+  </defs>
+
+  <rect width="1400" height="340" fill="url(#sea)"/>
+  <rect width="1400" height="340" fill="url(#surface)"/>
+
+  <!-- light rays -->
+  <polygon class="ray" points="560,-60 620,-60 380,340 260,340" fill="url(#ray)"/>
+  <polygon class="ray r2" points="840,-60 880,-60 1060,340 950,340" fill="url(#ray)"/>
+  <polygon class="ray r3" points="180,-60 230,-60 40,340 -30,340" fill="url(#ray)"/>
+  <polygon class="ray r2" points="1180,-60 1240,-60 1420,340 1330,340" fill="url(#ray)"/>
+
+  <!-- mid-water wave lines (seamless 280px period) -->
+  <g class="drift" opacity="0.35" stroke="#3D6A8A" fill="none" stroke-width="2">
+    <path d="M0 150 Q 70 138 140 150 T 280 150 T 420 150 T 560 150 T 700 150 T 840 150 T 980 150 T 1120 150 T 1260 150 T 1400 150 T 1540 150 T 1680 150"/>
+    <path d="M0 210 Q 70 200 140 210 T 280 210 T 420 210 T 560 210 T 700 210 T 840 210 T 980 210 T 1120 210 T 1260 210 T 1400 210 T 1540 210 T 1680 210" stroke="#2E5068" stroke-width="1.5"/>
+  </g>
+
+  <!-- sunken gothic silhouettes -->
+  <g fill="#030A13">
+    <path d="M60 310 L60 215 L88 155 L116 215 L116 310 Z"/>
+    <path d="M126 310 L126 240 L148 196 L170 240 L170 310 Z"/>
+    <path d="M20 310 L20 258 L40 220 L60 258 L60 310 Z"/>
+    <path d="M636 310 L636 185 L662 122 L688 185 L688 310 Z"/>
+    <path d="M782 310 L782 185 L808 122 L834 185 L834 310 Z"/>
+    <path d="M654 130 L662 104 L670 130 Z"/>
+    <path d="M800 130 L808 104 L816 130 Z"/>
+    <path d="M688 310 L688 225 Q 735 152 782 225 L782 310 Z"/>
+    <path d="M1180 310 L1180 245 Q 1215 200 1250 245 L1250 310 Z"/>
+    <path d="M1330 310 L1330 255 L1348 222 L1366 255 L1366 310 Z"/>
+  </g>
+  <circle cx="735" cy="248" r="15" fill="#123252"/>
+
+  <!-- seabed -->
+  <path d="M0 302 Q 180 288 400 298 T 820 300 T 1400 294 L 1400 340 L 0 340 Z" fill="#040C17"/>
+
+  <!-- rising bubbles -->
+  <g fill="#9FC6E4">
+    <g class="bub"><circle cx="300" cy="350" r="2.5"/><circle cx="318" cy="332" r="1.5"/><circle cx="288" cy="364" r="1.2"/></g>
+    <g class="bub b2"><circle cx="760" cy="350" r="2"/><circle cx="778" cy="334" r="1.3"/></g>
+    <g class="bub b3"><circle cx="1120" cy="350" r="2.2"/><circle cx="1102" cy="366" r="1.4"/><circle cx="1136" cy="360" r="1.1"/></g>
+  </g>
+
+  <!-- drifting particles -->
+  <g fill="#7FA6C8" opacity="0.3">
+    <circle cx="150" cy="120" r="1.2"/><circle cx="420" cy="90" r="1"/><circle cx="620" cy="140" r="1.4"/>
+    <circle cx="980" cy="100" r="1.2"/><circle cx="1240" cy="150" r="1"/><circle cx="860" cy="70" r="1"/>
+    <circle cx="240" cy="180" r="1"/><circle cx="1340" cy="90" r="1.2"/>
+  </g>
+
+  <rect width="1400" height="340" fill="url(#vig)"/>
+</svg>

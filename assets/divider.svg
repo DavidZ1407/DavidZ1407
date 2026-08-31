@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 36" width="900" height="36" role="img" aria-label="Subtle wave divider">
+  <defs>
+    <style>
+      .w { animation: swim 9s linear infinite; }
+      @keyframes swim { from { transform: translateX(0); } to { transform: translateX(-150px); } }
+    </style>
+  </defs>
+  <g class="w" fill="none" stroke-linecap="round">
+    <path d="M0 14 Q 37.5 6 75 14 T 150 14 T 225 14 T 300 14 T 375 14 T 450 14 T 525 14 T 600 14 T 675 14 T 750 14 T 825 14 T 900 14 T 975 14 T 1050 14" stroke="#3D6A8A" stroke-width="2" opacity="0.8"/>
+    <path d="M0 24 Q 37.5 17 75 24 T 150 24 T 225 24 T 300 24 T 375 24 T 450 24 T 525 24 T 600 24 T 675 24 T 750 24 T 825 24 T 900 24 T 975 24 T 1050 24" stroke="#2E5068" stroke-width="1.5" opacity="0.5"/>
+  </g>
+</svg>
