@@ -27,14 +27,6 @@ Games & Immersive Media student at **Hochschule Furtwangen**, focused on **gamep
   <img src="assets/ornament.svg" width="200" alt="" />
 </div>
 
-## Tools & Technologies
-
-![Godot](https://img.shields.io/badge/Godot-14211F?style=flat-square&logo=godotengine&logoColor=478CBF) ![C#](https://img.shields.io/badge/C%23-14211F?style=flat-square) ![Unreal Engine 5](https://img.shields.io/badge/Unreal%20Engine%205-14211F?style=flat-square&logo=unrealengine&logoColor=E9EDF2) ![Blender](https://img.shields.io/badge/Blender-14211F?style=flat-square&logo=blender&logoColor=E87D0D) ![Krita](https://img.shields.io/badge/Krita-14211F?style=flat-square&logo=krita&logoColor=56B4FF) ![HTML](https://img.shields.io/badge/HTML-14211F?style=flat-square&logo=html5&logoColor=E44D26) ![CSS](https://img.shields.io/badge/CSS-14211F?style=flat-square&logo=css&logoColor=4FA3E0) ![JavaScript](https://img.shields.io/badge/JavaScript-14211F?style=flat-square&logo=javascript&logoColor=F7DF1E) ![TypeScript](https://img.shields.io/badge/TypeScript-14211F?style=flat-square&logo=typescript&logoColor=3178C6) ![WebGL](https://img.shields.io/badge/WebGL-14211F?style=flat-square&logo=webgl&logoColor=E2574C) ![FMOD](https://img.shields.io/badge/FMOD-14211F?style=flat-square&logo=fmod&logoColor=E9EDF2)
-
-<div align="center">
-  <img src="assets/ornament.svg" width="200" alt="" />
-</div>
-
 <div align="center">
 
 <a href="https://davidz1407.github.io/Portfolio/index.html"><img src="assets/btn-portfolio.svg" width="190" alt="Portfolio"></a>
@@ -43,6 +35,10 @@ Games & Immersive Media student at **Hochschule Furtwangen**, focused on **gamep
 <a href="mailto:David-zahn@hotmail.com"><img src="assets/btn-email.svg" width="190" alt="Email"></a>
 
 </div>
+
+## Tools & Technologies
+
+![Godot](https://img.shields.io/badge/Godot-14211F?style=flat-square&logo=godotengine&logoColor=478CBF) ![C#](https://img.shields.io/badge/C%23-14211F?style=flat-square) ![Unreal Engine 5](https://img.shields.io/badge/Unreal%20Engine%205-14211F?style=flat-square&logo=unrealengine&logoColor=E9EDF2) ![Blender](https://img.shields.io/badge/Blender-14211F?style=flat-square&logo=blender&logoColor=E87D0D) ![Krita](https://img.shields.io/badge/Krita-14211F?style=flat-square&logo=krita&logoColor=56B4FF) ![HTML](https://img.shields.io/badge/HTML-14211F?style=flat-square&logo=html5&logoColor=E44D26) ![CSS](https://img.shields.io/badge/CSS-14211F?style=flat-square&logo=css&logoColor=4FA3E0) ![JavaScript](https://img.shields.io/badge/JavaScript-14211F?style=flat-square&logo=javascript&logoColor=F7DF1E) ![TypeScript](https://img.shields.io/badge/TypeScript-14211F?style=flat-square&logo=typescript&logoColor=3178C6) ![WebGL](https://img.shields.io/badge/WebGL-14211F?style=flat-square&logo=webgl&logoColor=E2574C) ![FMOD](https://img.shields.io/badge/FMOD-14211F?style=flat-square&logo=fmod&logoColor=E9EDF2)
 
 <div align="center">
   <sub><b>David Zahn</b> · Games & Immersive Media</sub>
