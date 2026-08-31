@@ -1,17 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 40" width="900" height="40" role="img" aria-label="Golden ornament divider">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 40" width="900" height="40" role="img" aria-label="Wave divider">
   <defs>
-    <style>
-      .glint { animation: glint 7s ease-in-out infinite; }
-      @keyframes glint { 0% { transform: translateX(-140px); opacity: 0; } 15% { opacity: 0.85; } 55% { opacity: 0.85; } 90% { opacity: 0; } 100% { transform: translateX(1040px); opacity: 0; } }
-    </style>
+    <linearGradient id="waveFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3FC6DA" stop-opacity="0"/>
+      <stop offset="0.12" stop-color="#3FC6DA" stop-opacity="0.6"/>
+      <stop offset="0.5" stop-color="#7FE0EC" stop-opacity="0.9"/>
+      <stop offset="0.88" stop-color="#3FC6DA" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#3FC6DA" stop-opacity="0"/>
+    </linearGradient>
   </defs>
-  <g stroke="#C9A45C">
-    <line x1="40" y1="20" x2="415" y2="20" stroke-width="1.2" opacity="0.55"/>
-    <line x1="485" y1="20" x2="860" y2="20" stroke-width="1.2" opacity="0.55"/>
-    <circle cx="40" cy="20" r="2" fill="#C9A45C" stroke="none" opacity="0.6"/>
-    <circle cx="860" cy="20" r="2" fill="#C9A45C" stroke="none" opacity="0.6"/>
-  </g>
-  <path d="M450 11 L459 20 L450 29 L441 20 Z" fill="none" stroke="#C9A45C" stroke-width="1.4" opacity="0.9"/>
-  <path d="M450 15.5 L454.5 20 L450 24.5 L445.5 20 Z" fill="#C9A45C" opacity="0.85"/>
-  <line class="glint" x1="60" y1="20" x2="170" y2="20" stroke="#F2E3BE" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M0 22 C 90 4, 180 4, 270 20 S 450 36, 540 20 S 720 4, 810 20 S 900 22, 900 22"
+        fill="none" stroke="url(#waveFade)" stroke-width="1.6"/>
 </svg>

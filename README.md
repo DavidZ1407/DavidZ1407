@@ -1,14 +1,14 @@
 <div align="center">
   <img src="assets/banner.svg" width="100%" alt="David Zahn — Games & Immersive Media · Gameplay Programming · Systems Design · 3D Art" />
 
-  *A developer portfolio, discovered beneath the surface.*
 
   [Portfolio](https://davidz1407.github.io/Portfolio/index.html) · [LinkedIn](https://www.linkedin.com/in/david-zahn-3829a1364/) · [GitHub](https://github.com/DavidZ1407)
+  
 </div>
 
 <br>
 
-Games & Immersive Media student at **Hochschule Furtwangen**, focused on **gameplay programming**, **gameplay systems** and **systems design**. Alongside that I work in **3D art**, **level design** and **web development**, and served as **Scrum Master** on a team game project. Currently open to roles in gameplay programming, gameplay/systems design, game development and 3D art.
+Games & Immersive Media student at **Hochschule Furtwangen**, focused on **gameplay programming**, **gameplay systems** and **systems design**. Alongside that I work in **3D art**, **level design** and **web development**, and in Team Project Currently open to roles in gameplay programming, gameplay/systems design, game development and 3D art.
 
 <div align="center">
   <img src="assets/divider.svg" width="440" alt="" />
@@ -22,7 +22,6 @@ Games & Immersive Media student at **Hochschule Furtwangen**, focused on **gamep
 
 **[Portfolio & Web Projects](https://davidz1407.github.io/Portfolio/index.html)** — interactive web experiences and graphics built with HTML/CSS/TS and WebGL/GLSL
 
-**Average Goblin Game** — game project, details on request
 
 <div align="center">
   <img src="assets/divider.svg" width="440" alt="" />
@@ -41,6 +40,7 @@ Games & Immersive Media student at **Hochschule Furtwangen**, focused on **gamep
 <a href="https://davidz1407.github.io/Portfolio/index.html"><img src="assets/btn-portfolio.svg" width="190" alt="Portfolio"></a>
 <a href="https://www.linkedin.com/in/david-zahn-3829a1364/"><img src="assets/btn-linkedin.svg" width="190" alt="LinkedIn"></a>
 <a href="https://github.com/DavidZ1407"><img src="assets/btn-github.svg" width="190" alt="GitHub"></a>
+<a href="mailto:David-zahn@hotmail.com"><img src="assets/btn-email.svg" width="190" alt="Email"></a>
 
 </div>
 
